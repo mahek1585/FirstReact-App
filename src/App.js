@@ -1,9 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import UserList from './UserList';
 
 function App() {
+  const users = [
+    { id: 1, name: 'Arbaj Ansari' },
+    { id: 2, name: 'Tanmay Shinde' }
+  ];
+
   return (
-    <h1>Hello </h1>
+    <div>
+      <UserList data={users} />
+    </div>
   );
 }
 
