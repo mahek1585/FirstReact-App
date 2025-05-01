@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Sofia&display=swap');
+
+
+
+.container {
+  height: 100vh; /* full viewport height */
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: space-between; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1rem;
+  max-width: 24rem;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+input {
+  outline: none;
+  border: none;
+ 
+}
+.heading {
+  color: #10B981;  
+  font-size: 2.25rem;
+  background-color: white; 
+  padding-left: 2rem;
+}
+body {
+  background-color: #cbd5e0; 
+}
+
+.input-wrapper {
+  position: relative;
+  border: 1px solid #6B7280;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.input-wrapper input {
+  padding-right: 3rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.add-btn {
+  position: absolute;
+  right:0rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #22c55e;
+  color: white;
+  border: none; 
+  border-radius:  0 0.75rem 0.75rem  0;
+  width: 3rem;
+  height: 2.3rem;
+  font-size: 1.2rem;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+.clear-wrapper{
+  margin-top: 2rem;
+  text-align: right;
+}
+.clear{
+  color: red;
+  font-size: 18px;
+  border: none;
+  background:none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+ul li {
+  display: flex;
+   justify-content:space-between; 
+  align-items: center;
+  background-color: #b6eebe; 
+  padding-left: 0.5rem;
+  padding-right: 0.2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem; 
+  height: 2.8rem; 
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  width: 2.8rem;
+  height: 2.6rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+}
