@@ -1,4 +1,4 @@
-
+/* 
 .container {
     display: flex;
     height: 100vh;
@@ -110,7 +110,7 @@
   }
   .button-dark {
     /* background-color: transparent; */
-    background: #2B2B2B;
+    /* background: #2B2B2B;
 
     border: 1px solid #fff;
     color: #fff;
@@ -118,4 +118,4 @@
   .button-light {
     background-color: #ffffff;
     color: #000;
-  }
+  } */ 

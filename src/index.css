@@ -1,5 +1,13 @@
+@import "tailwindcss/preflight";  /* for base styles */
+
+@tailwind utilities;
+
+
 html, body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #2B2B2B;
+  font-family: Arial, sans-serif;
+  color: white;
 }
